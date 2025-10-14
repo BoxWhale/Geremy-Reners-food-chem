@@ -11,3 +11,8 @@ This is a basic website programming workspace with HTML, CSS, and JavaScript cre
 - HTML5
 - CSS3
 - JavaScript (ES6+)
+
+## Getting Started
+To get started with this workspace, follow these steps:
+1. Open `index.html` in your web browser.
+
