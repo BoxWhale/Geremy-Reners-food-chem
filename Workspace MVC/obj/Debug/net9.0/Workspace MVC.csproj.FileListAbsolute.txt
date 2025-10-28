@@ -80,8 +80,6 @@ C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\rqg0j2r5ij-muycvpuwrr.gz
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\mghnvzqnp2-87fc7y1x7t.gz
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\hqkf925yyn-mlv21k5csn.gz
-C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\393ucmscb4-fgha86zsmc.gz
-C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\c357nltof7-fgha86zsmc.gz
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -96,3 +94,5 @@ C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.pdb
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.genruntimeconfig.cache
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\ref\Workspace MVC.dll
+C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\393ucmscb4-iy6sx0zz8n.gz
+C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\c357nltof7-iy6sx0zz8n.gz
