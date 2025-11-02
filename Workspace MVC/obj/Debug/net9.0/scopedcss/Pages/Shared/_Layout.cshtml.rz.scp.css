@@ -1,40 +1,11 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-yaooddiezm] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+*[b-yaooddiezm] {
+  border: 1px solid red !important;
 }
 
-a[b-yaooddiezm] {
-  color: #0077cc;
-}
+/* Write your CSS styles in this file */
+/*Navbar styles*/
 
-.btn-primary[b-yaooddiezm] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
 
-.nav-pills .nav-link.active[b-yaooddiezm], .nav-pills .show > .nav-link[b-yaooddiezm] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.border-top[b-yaooddiezm] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-yaooddiezm] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-yaooddiezm] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy[b-yaooddiezm] {
-  font-size: 1rem;
-  line-height: inherit;
-}
