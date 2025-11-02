@@ -8,20 +8,29 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a asp-page="/Index">Workspace_MVC</a>
-            <ul>
-                <li>
-                    <a asp-page="/Index">Home</a>
-                </li>
-                <li>
-                    <a asp-page="/Privacy">Privacy</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="wrapper main-wrapper">
+        <!-- Navbar content -->
+        <div class="navbar main-navbar">
+            <!-- Left-aligned section "For logo"-->
+            <div class="navbar-left">
+                <a asp-page="/Index" class="nav-link">
+                    <img src="https://www.emu.dk/themes/custom/emu/EMU_Logo_dark.svg" alt="Home" style="width: 128px"/>
+                </a>
+            </div>
+            <!-- Center-aligned section "For navigation links"-->
+            <div class="navbar-center">
+                <a asp-page="/Index" class="nav-link">Home</a>
+            </div>
+            <!-- Right-aligned section "For login/signup links"-->
+            <div class="navbar-right">
+            <!-- Future login/signup links can be added here 
+                    Spacer for now-->
+            </div>
+        </div>
+    </div>
     </header>
     
-    <main role="main">
+    <main role="main" class="wrapper">
         @RenderBody()
     </main>
 
