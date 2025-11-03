@@ -78,3 +78,22 @@ header {
     text-decoration: none;
     padding: 0px 6px;
 }
+
+/*Sidebar style*/
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 220px;
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+}
+
+/*Opgave style*/
+.opgaveBox {
+    position: relative;
+    left: 50%;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+}

@@ -37,3 +37,42 @@ C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\393ucmscb4-nvvldxk3pk.gz
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\c357nltof7-nvvldxk3pk.gz
 C:\Users\tueap\Documents\Uni\3rdSemester\Læringsteknologi\Github\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\0egdjwxhna-gtzj4cicel.gz
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\appsettings.Development.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\appsettings.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\Workspace MVC.staticwebassets.runtime.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\Workspace MVC.staticwebassets.endpoints.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\Workspace MVC.exe
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\Workspace MVC.deps.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\Workspace MVC.runtimeconfig.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\Workspace MVC.dll
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\bin\Debug\net9.0\Workspace MVC.pdb
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.AssemblyInfoInputs.cache
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.AssemblyInfo.cs
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.csproj.CoreCompileInputs.cache
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.RazorAssemblyInfo.cache
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.RazorAssemblyInfo.cs
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.sourcelink.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\scopedcss\bundle\Workspace MVC.styles.css
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\scopedcss\projectbundle\Workspace MVC.bundle.scp.css
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\hp8zxokhfw-61n19gt1b8.gz
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\ig36rjryp3-xtxxf3hu2r.gz
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\393ucmscb4-nvvldxk3pk.gz
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\c357nltof7-nvvldxk3pk.gz
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\staticwebassets.build.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\staticwebassets.development.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.dll
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\refint\Workspace MVC.dll
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.pdb
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\Workspace MVC.genruntimeconfig.cache
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\ref\Workspace MVC.dll
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\dr60kx8jh7-8w3yl0c4oc.gz
+C:\Læringstek1 projekt\Geremy-Reners-food-chem\Workspace MVC\obj\Debug\net9.0\compressed\0egdjwxhna-xnr3wcota8.gz
