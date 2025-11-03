@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Workspace MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddbe09b9e7feeb5f50572c58bf8084b756951be3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+000fc7c70e53253e49ea1b42e860b2b8d7917a04")]
 [assembly: System.Reflection.AssemblyProductAttribute("Workspace MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Workspace MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
