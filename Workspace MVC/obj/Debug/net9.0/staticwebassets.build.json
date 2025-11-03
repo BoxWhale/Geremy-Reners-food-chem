@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EC1gvWPtnJ/lv4L/eOVZMF2Ve2LtYaP1K5jsowIYtZo=",
+  "Hash": "1mTd9XqsCRwu2LgEK8qcAX3CaOuxa3Jq1Nppr2FXuWM=",
   "Source": "Workspace MVC",
   "BasePath": "_content/Workspace MVC",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-gtzj4cicel.gz",
       "SourceId": "Workspace MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Workspace MVC",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=gtzj4cicel}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,19 +31,19 @@
       "RelatedAsset": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "elmic13dzp",
+      "Integrity": "Hh0XhUOX/oSkGYXarI4Thy0PhLePsouAwv8DQFco3aQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-hogpipg83b.gz",
+      "Identity": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-nvvldxk3pk.gz",
       "SourceId": "Workspace MVC",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Workspace MVC",
-      "RelativePath": "Workspace MVC#[.{fingerprint=hogpipg83b}]?.styles.css.gz",
+      "RelativePath": "Workspace MVC#[.{fingerprint=nvvldxk3pk}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -52,19 +52,19 @@
       "RelatedAsset": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Workspace MVC.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "65q49plqz0",
-      "Integrity": "WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=",
+      "Fingerprint": "gvnv1apj4c",
+      "Integrity": "ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Workspace MVC.styles.css"
     },
     {
-      "Identity": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-hogpipg83b.gz",
+      "Identity": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-nvvldxk3pk.gz",
       "SourceId": "Workspace MVC",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Workspace MVC",
-      "RelativePath": "Workspace MVC#[.{fingerprint=hogpipg83b}]!.bundle.scp.css.gz",
+      "RelativePath": "Workspace MVC#[.{fingerprint=nvvldxk3pk}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Workspace MVC.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "65q49plqz0",
-      "Integrity": "WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=",
+      "Fingerprint": "gvnv1apj4c",
+      "Integrity": "ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Workspace MVC.bundle.scp.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "hogpipg83b",
-      "Integrity": "T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=",
+      "Fingerprint": "nvvldxk3pk",
+      "Integrity": "XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Workspace MVC.styles.css"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "hogpipg83b",
-      "Integrity": "T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=",
+      "Fingerprint": "nvvldxk3pk",
+      "Integrity": "XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Workspace MVC.bundle.scp.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "gtzj4cicel",
+      "Integrity": "7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -229,13 +229,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-gtzj4cicel.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.001466275660"
         }
       ],
       "ResponseHeaders": [
@@ -245,19 +245,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "681"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"Hh0XhUOX/oSkGYXarI4Thy0PhLePsouAwv8DQFco3aQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Oct 2025 10:10:01 GMT"
+          "Value": "Mon, 03 Nov 2025 07:51:07 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -273,26 +273,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -302,7 +294,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1685"
         },
         {
           "Name": "Content-Type",
@@ -310,11 +302,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Oct 2025 10:10:01 GMT"
+          "Value": "Mon, 03 Nov 2025 07:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-gtzj4cicel.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hh0XhUOX/oSkGYXarI4Thy0PhLePsouAwv8DQFco3aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 07:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hh0XhUOX/oSkGYXarI4Thy0PhLePsouAwv8DQFco3aQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gtzj4cicel.css",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-gtzj4cicel.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001466275660"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "681"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hh0XhUOX/oSkGYXarI4Thy0PhLePsouAwv8DQFco3aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 07:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gtzj4cicel"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gtzj4cicel.css",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 07:51:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -324,7 +461,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "gtzj4cicel"
         },
         {
           "Name": "label",
@@ -332,13 +469,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-7G9fo4R+WpCLnJ2RtK9TVYIfvb2WHWd+zowu2cmY89E="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-b9sayid5wm.gz",
+      "Route": "css/site.gtzj4cicel.css.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-gtzj4cicel.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -347,7 +484,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "681"
         },
         {
           "Name": "Content-Type",
@@ -355,11 +492,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"Hh0XhUOX/oSkGYXarI4Thy0PhLePsouAwv8DQFco3aQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Oct 2025 10:10:01 GMT"
+          "Value": "Mon, 03 Nov 2025 07:51:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -377,7 +514,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "gtzj4cicel"
         },
         {
           "Name": "label",
@@ -385,144 +522,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003134796238"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Oct 2025 10:10:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Oct 2025 10:10:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\0egdjwxhna-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Oct 2025 10:10:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-Hh0XhUOX/oSkGYXarI4Thy0PhLePsouAwv8DQFco3aQ="
         }
       ]
     },
@@ -1124,12 +1124,12 @@
     },
     {
       "Route": "Workspace MVC.bundle.scp.css",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-hogpipg83b.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-nvvldxk3pk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003412969283"
+          "Quality": "0.004739336493"
         }
       ],
       "ResponseHeaders": [
@@ -1139,15 +1139,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1167,13 +1167,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "W/\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
@@ -1188,7 +1188,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "391"
+          "Value": "265"
         },
         {
           "Name": "Content-Type",
@@ -1196,11 +1196,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1210,13 +1210,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
     {
       "Route": "Workspace MVC.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-hogpipg83b.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-nvvldxk3pk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1225,7 +1225,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "Content-Type",
@@ -1233,11 +1233,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1255,18 +1255,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk="
+          "Value": "sha256-ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw="
         }
       ]
     },
     {
-      "Route": "Workspace MVC.hogpipg83b.bundle.scp.css",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-hogpipg83b.gz",
+      "Route": "Workspace MVC.nvvldxk3pk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-nvvldxk3pk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003412969283"
+          "Quality": "0.004739336493"
         }
       ],
       "ResponseHeaders": [
@@ -1276,15 +1276,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1304,13 +1304,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "W/\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hogpipg83b"
+          "Value": "nvvldxk3pk"
         },
         {
           "Name": "label",
@@ -1318,12 +1318,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
     {
-      "Route": "Workspace MVC.hogpipg83b.bundle.scp.css",
+      "Route": "Workspace MVC.nvvldxk3pk.bundle.scp.css",
       "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Workspace MVC.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1333,7 +1333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "391"
+          "Value": "265"
         },
         {
           "Name": "Content-Type",
@@ -1341,11 +1341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1355,7 +1355,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hogpipg83b"
+          "Value": "nvvldxk3pk"
         },
         {
           "Name": "label",
@@ -1363,13 +1363,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
     {
-      "Route": "Workspace MVC.hogpipg83b.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-hogpipg83b.gz",
+      "Route": "Workspace MVC.nvvldxk3pk.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\c357nltof7-nvvldxk3pk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1378,7 +1378,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "Content-Type",
@@ -1386,11 +1386,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1408,7 +1408,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hogpipg83b"
+          "Value": "nvvldxk3pk"
         },
         {
           "Name": "label",
@@ -1416,18 +1416,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk="
+          "Value": "sha256-ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw="
         }
       ]
     },
     {
-      "Route": "Workspace MVC.hogpipg83b.styles.css",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-hogpipg83b.gz",
+      "Route": "Workspace MVC.nvvldxk3pk.styles.css",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-nvvldxk3pk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003412969283"
+          "Quality": "0.004739336493"
         }
       ],
       "ResponseHeaders": [
@@ -1437,15 +1437,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1465,13 +1465,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "W/\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hogpipg83b"
+          "Value": "nvvldxk3pk"
         },
         {
           "Name": "label",
@@ -1479,12 +1479,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
     {
-      "Route": "Workspace MVC.hogpipg83b.styles.css",
+      "Route": "Workspace MVC.nvvldxk3pk.styles.css",
       "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Workspace MVC.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1494,7 +1494,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "391"
+          "Value": "265"
         },
         {
           "Name": "Content-Type",
@@ -1502,11 +1502,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1516,7 +1516,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hogpipg83b"
+          "Value": "nvvldxk3pk"
         },
         {
           "Name": "label",
@@ -1524,13 +1524,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
     {
-      "Route": "Workspace MVC.hogpipg83b.styles.css.gz",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-hogpipg83b.gz",
+      "Route": "Workspace MVC.nvvldxk3pk.styles.css.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-nvvldxk3pk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1539,7 +1539,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "Content-Type",
@@ -1547,11 +1547,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1569,7 +1569,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hogpipg83b"
+          "Value": "nvvldxk3pk"
         },
         {
           "Name": "label",
@@ -1577,18 +1577,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk="
+          "Value": "sha256-ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw="
         }
       ]
     },
     {
       "Route": "Workspace MVC.styles.css",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-hogpipg83b.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-nvvldxk3pk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003412969283"
+          "Quality": "0.004739336493"
         }
       ],
       "ResponseHeaders": [
@@ -1598,15 +1598,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1626,13 +1626,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "W/\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
@@ -1647,7 +1647,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "391"
+          "Value": "265"
         },
         {
           "Name": "Content-Type",
@@ -1655,11 +1655,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU=\""
+          "Value": "\"XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1669,13 +1669,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T4k0xAJVfAOzi8mOJLJt7U+XxS9sxgo3F4Bk8AvmEnU="
+          "Value": "sha256-XRpTzyD2mZm2JR7Vzq4XOdRULJM0y6iK535mfFzBE4s="
         }
       ]
     },
     {
       "Route": "Workspace MVC.styles.css.gz",
-      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-hogpipg83b.gz",
+      "AssetFile": "C:\\Users\\tueap\\Documents\\Uni\\3rdSemester\\Læringsteknologi\\Github\\Geremy-Reners-food-chem\\Workspace MVC\\obj\\Debug\\net9.0\\compressed\\393ucmscb4-nvvldxk3pk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1684,7 +1684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292"
+          "Value": "210"
         },
         {
           "Name": "Content-Type",
@@ -1692,11 +1692,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk=\""
+          "Value": "\"ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 13:37:48 GMT"
+          "Value": "Sun, 02 Nov 2025 14:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1714,7 +1714,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WtqlP/k3UMk3CYVSZ9M+UPLyfg4m8GTfp9POSEx6nSk="
+          "Value": "sha256-ZByKUu7Da3DFGc6Dy8UrYsn8jJFAaBp9Zh/O4qN6PLw="
         }
       ]
     }

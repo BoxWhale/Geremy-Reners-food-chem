@@ -1,6 +1,7 @@
 :root {
     --primary-bar-color: #156082;
     --secondary-bar-color: #83cbeb;
+    --third-bar-color: #112f3e;
     --accent-color: #f39c12;
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -19,24 +20,42 @@ body {
     background-color: var(--secondary-bar-color);
 }
 
+/* Header styles and settings */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+
 /*Navbar styles*/
 .navbar-left, .navbar-mid, .navbar-right, .navbar {
     display: flex;
     flex: 1;
     align-items: center;
+
 }
 .navbar {
     padding: auto;
     position: relative;
 }
+/* Navbar left is for logo */
 .navbar-left{
-  margin: 12px 0;
-    justify-content: flex-start;
-}
-.navbar-center{
     margin: 12px 0;
-    justify-content: center;
+    justify-content: flex-start;
+    flex: 0.25;
 }
+/* Navbar center is for navlinks */
+.navbar-center{
+    justify-content: center;
+    background-color: var(--third-bar-color);
+    align-self: stretch;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+/* Navbar right is for now unused */
 .navbar-right{
     justify-content: flex-end;
 }
@@ -57,4 +76,5 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 0px 6px;
 }
