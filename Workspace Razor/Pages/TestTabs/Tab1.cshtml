@@ -4,19 +4,22 @@
     ViewData["Title"] = "Tab 1";
 }
 
-<div class="sidebar">
-    <h3>Sidebar</h3>
+<div class="opgBody">
+    <div class="sidebar">
+        <h3>Sidebar</h3>
 
-    <ul>
-        <li><button class="btn" onclick="show('one')">Opgave 1</button></li>
-        <li><button class="btn" onclick="show('two')">Opgave 2</button></li>
-        <li><button class="btn" onclick="show('three')">Opgave 3</button></li>
-    </ul>
+        <ul>
+            <li><button class="btn" onclick="show('one')">Opgave 1</button></li>
+            <li><button class="btn" onclick="show('two')">Opgave 2</button></li>
+            <li><button class="btn" onclick="show('three')">Opgave 3</button></li>
+        </ul>
+    </div>
 
+    <div class="opgaveBox">
+        Click a button to load content.
+    </div>
 </div>
 
-<div id="opgaveBox" class="opgaveBox">
-    Click a button to load content.
-</div>
+
 
 <script src="~/js/opgaveskift.js"></script>

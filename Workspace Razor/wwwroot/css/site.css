@@ -6,10 +6,6 @@
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.text-center {
-    text-align: center;
-}
-
 /* Write your CSS styles in this file */
 body {
   /* body style reset */
@@ -27,6 +23,10 @@ header {
     width: 100%;
     align-items: center;
     margin: 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /*Navbar styles*/
@@ -60,14 +60,19 @@ header {
     justify-content: flex-end;
 }
 
-.main-wrapper {
+.wrapper{
+    padding: 0px 24px;
     margin: 0 auto;
     box-sizing: inherit;
     background-color: var(--primary-bar-color);
     color: white;
 }
-.wrapper{
-    padding: 0px 24px;
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 100%;
 }
 
 /*Navlink styles*/
@@ -77,4 +82,31 @@ header {
     text-align: center;
     text-decoration: none;
     padding: 0px 6px;
+}
+
+.opgBody{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+  position: fixed;
+  left: 0;
+  width: 150px;
+  background-color: #34495e;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.opgaveBox {
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    width: 100vh;
+    right: 0;
+    border: 1px red solid !important; /* For debugging purposes */
 }
