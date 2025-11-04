@@ -6,15 +6,17 @@
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Write your CSS styles in this file */
 body {
-    /* body style reset */
-    display: flex;
-    flex-direction: column;
-
-    margin: 0;
-    height: 100vh;
-
+  /* body style reset */
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+    size: inherit;
     background-color: var(--secondary-bar-color);
 }
 
@@ -27,41 +29,34 @@ header {
     margin: 0;
 }
 
-main {
-    display: flex;
-    height: 100%;
-}
-
 /*Navbar styles*/
 .navbar-left, .navbar-mid, .navbar-right, .navbar {
     display: flex;
     flex: 1;
     align-items: center;
-}
 
+}
 .navbar {
-    padding: 0;
+    padding: auto;
     position: relative;
 }
 /* Navbar left is for logo */
-.navbar-left {
+.navbar-left{
     margin: 12px 0;
     justify-content: flex-start;
     flex: 0.25;
 }
 /* Navbar center is for navlinks */
-.navbar-center {
-    display: flex;
+.navbar-center{
     justify-content: center;
-    align-self: stretch;
-    width: fit-content;
-    align-items: center;
-
     background-color: var(--third-bar-color);
+    align-self: stretch;
     padding: 0 12px;
+    display: flex;
+    align-items: center;
 }
 /* Navbar right is for now unused */
-.navbar-right {
+.navbar-right{
     justify-content: flex-end;
 }
 
@@ -71,8 +66,8 @@ main {
     background-color: var(--primary-bar-color);
     color: white;
 }
-.wrapper {
-    padding: 0px 0px;
+.wrapper{
+    padding: 0px 24px;
 }
 
 /*Navlink styles*/
@@ -82,21 +77,4 @@ main {
     text-align: center;
     text-decoration: none;
     padding: 0px 6px;
-}
-
-.sidebar{
-    background-color: dimgray;
-    position: sticky;
-    left: 0;
-    padding: 0 12px;
-}
-
-.opgaveBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto auto;         /* centers the box itself horizontally */
-    background-color: antiquewhite;
-    height: fit-content;
-    width: auto;
 }
