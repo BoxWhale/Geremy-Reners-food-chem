@@ -8,13 +8,13 @@
 </head>
 <body>
     <header>
-    <div class="wrapper">
+    <div class="main-wrapper">
         <!-- Navbar content -->
         <div class="navbar main-navbar">
             <!-- Left-aligned section "For logo"-->
             <div class="navbar-left">
                 <a asp-page="/Index" class="nav-link">
-                    <img src="/Img/logo.png" alt="Home" style="width: 128px"/>
+                    <img src="https://www.emu.dk/themes/custom/emu/EMU_Logo_dark.svg" alt="Home" style="width: 128px"/>
                 </a>
             </div>
             <!-- Center-aligned section "For navigation links"-->
@@ -23,9 +23,9 @@
                 <a asp-page="/Index" class="nav-link">Opgaver</a>
                 <!--Results page, is being edited by: [INSERT NAME]-->
                 <a asp-page="/Results" class="nav-link">Resultater</a>
-                <!--Test page 1, is being edited by: Aske -->
+                <!--Test page 1, is being edited by: [INSERT NAME]-->
                 <a asp-page="/TestTabs/Tab1" class="nav-link">Tab 1</a>
-                <!--Test page 2, is being edited by: Tue -->
+                <!--Test page 2, is being edited by: [INSERT NAME]-->
                 <a asp-page="/TestTabs/Tab2" class="nav-link">Tab 2</a>
                 <!--Test page 3, is being edited by: [INSERT NAME]-->
                 <a asp-page="/TestTabs/Tab3" class="nav-link">Tab 3</a>
@@ -39,7 +39,7 @@
     </div>
     </header>
     
-    <main role="main" class="wrapper main-wrapper">
+    <main role="main">
         @RenderBody()
     </main>
 
