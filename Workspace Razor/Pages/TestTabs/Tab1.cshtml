@@ -6,17 +6,17 @@
 
 <div class="sidebar">
     <h2>Sidebar</h2>
-
     <ul>
-        <li><button href="#" class="btn" onclick="show('/Opgaver/Opgave1.cshtml')">Opgave 1</button></li>
-        <li><button class="btn" onclick="show('two')">Opgave 2</button></li>
-        <li><button class="btn" onclick="show('three')">Opgave 3</button></li>
+        <li><button class="btn" onclick="show('/Opgaver/Opgave1')">Opgave 1</button></li>
+        <li><button class="btn" data-url="/Opgaver/Opgave2">Opgave 2</button></li>
+        <li><button class="btn" data-url="/Opgaver/Opgave3">Opgave 3</button></li>
     </ul>
-
 </div>
 
 <div id="opgaveBox" class="opgaveBox">
-    Click a button to load content.
+    <p>Select a task from the sidebar.</p>
 </div>
 
-<script src="~/js/opgaveskift.js"></script>
+@section Scripts {
+    <script src="~/js/opgaveskift.js" asp-append-version="true"></script>
+}
