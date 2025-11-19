@@ -1,0 +1,17 @@
+function saveanswer(savedKey, answerTyped){    
+    sessionStorage.setItem(savedKey, answerTyped);
+}
+
+
+function showanswer(savedKey){
+    let storedAnswer = sessionStorage.getItem(savedKey);
+    document.getElementById("displayanswer").innerHTML = storedAnswer;
+}
+
+function  allStorage(){
+    keys = Object.keys(sessionStorage);
+    console.log(keys)
+    length = keys.length
+    for (let i = 0; i < length; i++) {
+console.log(keys[i])}
+}
