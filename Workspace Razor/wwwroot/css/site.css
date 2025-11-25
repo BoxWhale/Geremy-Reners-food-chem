@@ -117,3 +117,7 @@ main {
     margin: auto auto;
     background-color: antiquewhite;
 }
+
+.resultBlock{
+    display: grid;
+}

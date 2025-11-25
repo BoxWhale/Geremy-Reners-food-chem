@@ -22,3 +22,4 @@ function allStorage() {
 
     document.getElementById("displaystorage").innerHTML = output;
 }
+
