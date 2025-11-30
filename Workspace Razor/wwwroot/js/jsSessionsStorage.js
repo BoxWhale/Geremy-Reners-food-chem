@@ -12,6 +12,9 @@ function showanswer(savedKey){
 
 function allStorage() {
     const keys = Object.keys(sessionStorage);
+    
+    keys.sort();
+
     let output = "";
 
     for (let i = 0; i < keys.length; i++) {
