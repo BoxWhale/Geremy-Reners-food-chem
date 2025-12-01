@@ -5,16 +5,22 @@
 }
 
 <div class="task-window">
-    <h2>Task 1</h2>
-    <p>This is the premade content for Task 1.</p>
-    <input onfocusout="saveanswer('Opgave 1 svar', 'AnswerBox1')" type="text" id="AnswerBox1" name="Answer1" value="">
+    <h2>Opgave 1 Eddike:</h2>
+    <div>
+        <p>Eddike består af vand, 5% eddikesyre samt smags- og farvestoffer.</p>
+        <p>1a. Tegn eller find en figur af eddikesyre</p>
+        <p>1b. Hvorfor kan man også kalde eddikesyre for ethansyre?</p>
+            <input onfocusout="saveanswer('Opgave 1b svar', 'AnswerBox1')" type="text" id="AnswerBox1" name="Answer1" value="">
+        <p>1c. Marker syregruppen på din figur</p>
+        <p>1d. Find og skriv elektronegativiteten for atomerne på figuren</p>
+            <div>
+                <p>Antal polære grupper:</p><input onfocusout="saveanswer('Opgave 1d polære svar', 'AnswerBox2')" type="text" id="AnswerBox2" name="Answer2" value="">
+                <p>Antal upolære grupper:</p><input onfocusout="saveanswer('Opgave 1d upolære svar', 'AnswerBox3')" type="text" id="AnswerBox3" name="Answer3" value="">
+            </div>
+        <p>1e. Er eddike polært eller upolært?</p>
+        <p>1f. Vil eddiken blande sig med olien (hvorfor/hvorfor ikke)?</p>
+           <input onfocusout="saveanswer('Opgave 1f svar', 'AnswerBox4')" type="text" id="AnswerBox4" name="Answer4" value="">
+    </div>
     <br>
-    <p id="displayanswer"></p>
-    <br>
-    <p id="displaystorage"></p>
-<br>
-        <button onclick="allStorage()">show all storage</button>
-<br>
-        <button onclick="showanswer('savedkey1')">show answer</button>
 </div>
 
