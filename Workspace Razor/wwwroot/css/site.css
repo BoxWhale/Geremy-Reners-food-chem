@@ -1,7 +1,7 @@
 :root {
     --primary-bar-color: #156082;
     --secondary-bar-color: #83cbeb;
-    --third-bar-color: #112f3e;
+    --third-bar-color: #2b373c;
     --accent-color: #f39c12;
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -15,7 +15,7 @@ body {
     margin: 0;
     height: 100vh;
 
-    background-color: lightgrey;
+    background-color: antiquewhite;
 }
 
 /* Header styles and settings */
@@ -67,6 +67,16 @@ main {
     border-radius: 4px;
 }
 
+.navbar-center a.nav-link:hover {
+  background-color: #3a7695;
+}
+
+
+.navbar-center a.nav-link:after {
+    background-color: #112f3e;
+}
+
+
 /* Navbar right is for now unused */
 .navbar-right {
     justify-content: flex-end;
@@ -115,7 +125,6 @@ main {
     justify-content: center;
     align-items: center;
     margin: auto auto;
-    background-color: antiquewhite;
 }
 
 .resultBlock{
