@@ -1,94 +1,31 @@
 :root {
     --primary-bar-color: #156082;
-    --secondary-bar-color: #83cbeb;
-    --third-bar-color: #2b373c;
-    --accent-color: #f39c12;
+    --secondary-bar-color: #0F9ED5;
+
+    --background-color: #83CBEB;
+
+    --border-color: #000000;
+
+    --navlink-background-color: #112f3e;
+    --navlink-hover-color: #3a7695;
+
+    --sidebar-hover-color: #3a7695;
+
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Write your CSS styles in this file */
 body {
-    /* body style reset */
     display: flex;
     flex-direction: column;
 
     margin: 0;
     height: 100vh;
-
-    background-color: antiquewhite;
-}
-
-/* Header styles and settings */
-header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    align-items: center;
-    margin: 0;
 }
 
 main {
     display: flex;
     height: 100%;
-}
-
-/*Navbar styles*/
-.navbar-left, .navbar-mid, .navbar-right, .navbar {
-    display: flex;
-    flex: 1;
-    align-items: center;
-}
-
-.navbar {
-    padding: 0;
-    position: relative;
-}
-/* Navbar left is for logo */
-.navbar-left {
-    margin: 12px 10px;
-    justify-content: flex-start;
-    flex: 0.25;
-}
-/* Navbar center is for navlinks */
-.navbar-center {
-    display: flex;
-    justify-content: center;
-    align-self: stretch;
-    width: fit-content;
-    align-items: center;
-    padding: 0 12px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-}
-.navbar-center a.nav-link{
-    background-color: var(--third-bar-color);
-    padding: 6px 12px;
-    margin: 0 6px;
-    border-radius: 4px;
-}
-
-.navbar-center a.nav-link:hover {
-  background-color: #3a7695;
-}
-
-
-.navbar-center a.nav-link:after {
-    background-color: #112f3e;
-}
-
-
-/* Navbar right is for now unused */
-.navbar-right {
-    justify-content: flex-end;
-}
-
-/*Navlink styles*/
-.nav-link {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px 6px;
+    background-color: var(--background-color);
 }
 
 .main-wrapper {
@@ -98,33 +35,146 @@ main {
     color: white;
 }
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: dimgray;
-    position: sticky;
-    left: 0;
-    padding: 12px;
-    border-right: 2px solid black;
-}
-.sidebar h2 {
-    margin-top: 0;
-}
-.sidebar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.sidebar ul li {
-    margin: 5px 0;
-}
+/* #region Header */
+
+    /* Header styles and settings */
+    header {
+        position: sticky;
+        background-color: var(--primary-bar-color);
+        top: 0;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    /*Navbar styles*/
+    .navbar-left, .navbar-mid, .navbar-right, .navbar {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+
+    .navbar {
+        padding: 0;
+        position: relative;
+    }
+
+    /* Navbar left is for logo */
+    .navbar-left {
+        margin: 12px 10px;
+        justify-content: flex-start;
+        flex: 0.25;
+    }
+
+    /* Navbar center is for navlinks */
+    .navbar-center {
+        display: flex;
+        justify-content: center;
+        align-self: stretch;
+        width: fit-content;
+        align-items: center;
+        padding: 0 12px;
+        border-right: 2px solid var(--border-color);
+        border-left: 2px solid var(--border-color);
+    }
+
+    .navbar-right {
+        justify-content: flex-end;
+    }
+
+    /*Navlink styles*/
+    .nav-link {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 0px 6px;
+    }
+
+    .navbar-center a.nav-link {
+        background-color: var(--navlink-background-color);
+        padding: 6px 12px;
+        margin: 0 6px;
+        border-radius: 4px;
+        transition: background-color 0.12s, color 0.12s, box-shadow 0.12s;
+    }
+
+    .navbar-center a.nav-link:hover {
+        background-color: var(--navlink-hover-color);
+    }
+
+    .navbar-center a.nav-link:after {
+        background-color: var(--navlink-background-color);
+    }
+
+/* #endregion */
+
+/* #region Sidebar */
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+        background-color: var(--secondary-bar-color);
+        left: 0;
+        padding: 12px;
+        border-right: 2px solid var(--border-color);
+    }
+
+    .sidebar h2 {
+        margin-top: 0;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar ul li {
+        margin: 5px 0;
+    }
+
+    /*Hides default radio highlight*/
+    .sidebar input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    /* Adds a border to the buttons*/
+    .sidebar label {
+        display: inline-block;
+        padding: 6px 12px;
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        margin: 2px 0;
+        cursor: pointer;
+        transition: background-color 0.12s, color 0.12s, box-shadow 0.12s;
+    }
+
+    .sidebar label:hover {
+        background-color: #e6e6e6;
+    }
+
+    /*Sets colours for the button, while checked*/
+    .sidebar input[type="radio"]:checked + label {
+        background: #007bff;
+        color: #fff;
+        border-color: var(--border-color);
+    }
+
+/* #endregion */
 
 .opgaveBox{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto auto;
+    margin: 50px auto auto 50px;
 }
 
 .resultBlock{

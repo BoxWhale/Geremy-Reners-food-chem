@@ -7,10 +7,24 @@
 <div class="sidebar">
     <h2>Sidebar</h2>
     <ul>
-        <li><button class="btn" onclick="show('/Opgaver/Opgave1')">Opgave 1</button></li>
-        <li><button class="btn" onclick="show('/Opgaver/Opgave2')">Opgave 2</button></li>
-        <li><button class="btn" onclick="show('/Opgaver/Opgave3')">Opgave 3</button></li>
-        <li><button class="btn" onclick="show('/Opgaver/Opgave4')">Opgave 4</button></li>
+        <li>
+            <input type="radio" id="opg1" onclick="show('/Opgaver/Opgave1')" name="opgave" value="Opgave 1" />
+            <label for="opg1">Opgave 1</label>
+        </li>
+        
+        <li>
+            <input type="radio" id="opg2" onclick="show('/Opgaver/Opgave2')" name="opgave" value="Opgave 2" />
+            <label for="opg2">Opgave 2</label>
+        </li>
+
+        <li>
+            <input type="radio" id="opg3" onclick="show('/Opgaver/Opgave3')" name="opgave" value="Opgave 3" />
+            <label for="opg3">Opgave 3</label>
+        </li>
+        <li>
+            <input type="radio" id="opg4" onclick="show('/Opgaver/Opgave4')" name="opgave" value="Opgave 4" />
+            <label for="opg4">Opgave 4</label>
+        </li>
 
     </ul>
 </div>
