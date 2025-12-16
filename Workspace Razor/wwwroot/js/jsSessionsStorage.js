@@ -1,6 +1,20 @@
+
 function saveanswer(savedKey, inputId){   
-    const answerTyped = document.getElementById(inputId).value; 
-    sessionStorage.setItem(savedKey, answerTyped);
+    const inputElem = document.getElementById(inputId);
+    let answerTyped;
+    if (inputElem && inputElem.type === "radio") {
+        // Find the checked radio in the group
+        const group = document.getElementsByName(inputElem.name);
+        for (let i = 0; i < group.length; i++) {
+            if (group[i].checked) {
+                answerTyped = group[i].value;
+                break;
+            }
+        }
+    } else if (inputElem) {
+        answerTyped = inputElem.value;
+    }
+    sessionStorage.setItem(savedKey, answerTyped || "");
     // Log and update UI immediately when possible
     try { console.log(`saveanswer: saved ${savedKey} = ${answerTyped}`); } catch (e) {}
     try { if (typeof allStorage === 'function') allStorage(); } catch (e) {}
