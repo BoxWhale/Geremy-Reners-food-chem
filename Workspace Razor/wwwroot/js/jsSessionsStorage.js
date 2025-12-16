@@ -43,7 +43,7 @@ function allStorage() {
             "Opgave 1d polære svar": ["1"],
             "Opgave 1d upolære svar": ["1"],
             "Opgave 1f svar": "nej, olie er upolært",
-            "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"],
+            "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"]/* multiple choice istedet*/,
             "Opgave 2e svar": ["nej eddike polært","molekyler samle sig og skille sig fra upolære fedtstof"],
             "Opgave 3a svar": ["interagere både polære og upolære molekyler"],
             "Opgave 3c svar": ["2 haler, de er upolære","vil kunne blande sig med fedtstof"]
