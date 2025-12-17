@@ -45,19 +45,14 @@ function allStorage() {
 }
 
     function checkAnswers(){
-        // Flexible validators map. Each value can be:
-        // - a RegExp (tested with .test())
-        // - a string (case-insensitive exact match)
-        // - an array of strings (any item matches case-insensitively)
-        // - a function: (storedValue) => boolean
-        // Update these per-question to the actual expected answers.
-        // Match the exact sessionStorage keys used by the question pages (they include 'Opgave' and ' svar')
+       
+        //validators to say what the answers should be
         const validators = {
             "Opgave 1b svar": ["ethan-gruppe","carboxyl-gruppe","C-C","COOH","alkan"],
             "Opgave 1d polære svar": ["1"],
             "Opgave 1d upolære svar": ["1"],
-            "Opgave 1f svar": "nej, olie er upolært",
-            "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"]/* multiple choice istedet*/,
+            "Opgave 1f svar": "nej, fordi olie er upolært",
+            "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"] ,
             "Opgave 2e svar": ["nej eddike polært","molekyler samle sig og skille sig fra upolære fedtstof"],
             "Opgave 3a svar": ["interagere både polære og upolære molekyler"],
             "Opgave 3c svar": ["2 haler, de er upolære","vil kunne blande sig med fedtstof"]
@@ -69,7 +64,7 @@ function allStorage() {
             return false;
         }
 
-        // small helper to safely show stored text
+        //makes sure that answers are text, safety
         function escapeHtml(str) {
             return String(str)
                 .replace(/&/g, '&amp;')
@@ -79,29 +74,38 @@ function allStorage() {
                 .replace(/'/g, '&#39;');
         }
 
-        // Clear previous results
+        //remove previous results
         container.innerHTML = '';
-        let allCorrect = true;
+        const keys = Object.keys(validators);
+        const total = keys.length;
+        let answeredCount = 0;
+        let correctCount = 0;
 
-        // If none of the expected keys have been answered yet, show a friendly message
-        const answeredKeys = Object.keys(validators).filter(k => {
-            const v = sessionStorage.getItem(k);
-            return v != null && String(v).trim() !== '';
-        });
+        // will update after every answer
+        const summaryEl = document.createElement('p');
+        summaryEl.className = 'summary';
+        summaryEl.textContent = `Besvaret: 0 / ${total} — Korrekt: 0`;
+        container.appendChild(summaryEl);
 
-        if (answeredKeys.length === 0) {
-            container.innerHTML = '<p> Der er ingen svar indsendt endnu. Venligst besvar spørgsmålene og åbn derefter denne side.</p>';
-            return false;
-        }
-
-        for (const key of Object.keys(validators)) {
+        for (const key of keys) {
             const validator = validators[key];
             const storedRaw = sessionStorage.getItem(key);
             const stored = storedRaw == null ? '' : String(storedRaw).trim();
 
+            // If an answer is missing
+            if (!stored) {
+                const p = document.createElement('p');
+                p.className = 'answer-row unanswered';
+                p.innerHTML = `${escapeHtml(key)}: <em>Ikke besvaret</em>`;
+                container.appendChild(p);
+                continue;
+            }
+
+            answeredCount++;
+
             let isCorrect = false;
             let expectedText = '';
-
+            //test the answers with regex
             if (validator instanceof RegExp) {
                 isCorrect = validator.test(stored);
                 expectedText = validator.toString();
@@ -112,7 +116,7 @@ function allStorage() {
                     if (v instanceof RegExp) {
                         if (v.test(stored)) { isCorrect = true; break; }
                     } else {
-                        // For string entries in arrays, allow substring match (case-insensitive)
+                        
                         if (storedLower.includes(String(v).toLowerCase())) { isCorrect = true; break; }
                     }
                 }
@@ -130,18 +134,25 @@ function allStorage() {
                 expectedText = String(validator);
                 isCorrect = String(stored).toLowerCase() === String(validator).toLowerCase();
             }
+            //displays the results
+            const p = document.createElement('p');
+            p.className = 'answer-row ' + (isCorrect ? 'correct' : 'incorrect');
+            p.innerHTML = `${escapeHtml(key)}: <strong>${isCorrect ? 'Korrekt' : 'Forkert'}</strong>` +
+                ` — "${escapeHtml(stored)}"; forventet: ${escapeHtml(expectedText)}`;
+            container.appendChild(p);
 
-            container.innerHTML += `<p class="answer-row">${escapeHtml(key)}: <strong>${isCorrect ? 'Correct' : 'Incorrect'}</strong>` +
-                ` "${escapeHtml(stored)}"; svar: ${escapeHtml(expectedText)}</p>`;
-
-            if (!isCorrect) allCorrect = false;
+            if (isCorrect) correctCount++;
         }
 
-        return allCorrect;
+        // Update
+        summaryEl.textContent = `Besvaret: ${answeredCount} / ${total} — Korrekt: ${correctCount}`;
+
+        // Return true only if everything is answered and all correct
+        return (answeredCount === total && correctCount === total);
 
     }
 
-    // Simple diagnostics you can call from the console
+    // Shows the answers that are stored in sessionStorage in the console for debugging
     function debugStorageConsole() {
         console.group('sessionStorage contents');
         const keys = Object.keys(sessionStorage).sort();
@@ -150,7 +161,7 @@ function allStorage() {
         }
         console.groupEnd();
     }
-
+    
     function showValidatorDiagnostics() {
         const expected = [
             "Opgave 1b svar",
