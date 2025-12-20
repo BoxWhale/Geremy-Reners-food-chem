@@ -15,7 +15,11 @@
     <p>2c. Find og skriv elektronegativiteten for atomerne på figuren</p>
     
     <p>2d. Er fedtstoffet polært eller upolært?</p>
-    <input onfocusout="saveanswer('Opgave 2d svar', 'AnswerBox5')" type="text" id="AnswerBox5" name="Answer5" value="">
+        <select id="AnswerSelect2" name="AnswerSelect2" onchange="saveanswer('Opgave 2d svar','AnswerSelect2')">
+            <option value="">--Vælg--</option>
+            <option value="Polært">Polært</option>
+            <option value="Upolært">Upolært</option>
+        </select>
     <p>2e. Vil fedtstoffet blande sig med eddike? (hvorfor/hvorfor ikke)</p>
     <input onfocusout="saveanswer('Opgave 2e svar', 'AnswerBox6')" type="text" id="AnswerBox6" name="Answer6" value="">    
 </div>

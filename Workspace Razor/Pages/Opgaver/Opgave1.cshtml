@@ -18,6 +18,11 @@
                 <p>Antal upolære grupper:</p><input onfocusout="saveanswer('Opgave 1d upolære svar', 'AnswerBox3')" type="text" id="AnswerBox3" name="Answer3" value="">
             </div>
         <p>1e. Er eddike polært eller upolært?</p>
+        <select id="AnswerSelect1" name="AnswerSelect1" onchange="saveanswer('Opgave 1e svar','AnswerSelect1')">
+            <option value="">--Vælg--</option>
+            <option value="Polært">Polært</option>
+            <option value="Upolært">Upolært</option>
+        </select>
         <p>1f. Vil eddiken blande sig med olien (hvorfor/hvorfor ikke)?</p>
            <input onfocusout="saveanswer('Opgave 1f svar', 'AnswerBox4')" type="text" id="AnswerBox4" name="Answer4" value="">
     </div>
