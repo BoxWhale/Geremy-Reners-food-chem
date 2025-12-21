@@ -24,11 +24,11 @@
                 <!--Results page, is being edited by: [INSERT NAME]-->
                 <a asp-page="/Results" class="nav-link">Resultater</a>
                 <!--Test page 1, is being edited by: [INSERT NAME]-->
-                <a asp-page="/TestTabs/Tab1" class="nav-link">Tab 1</a>
+                <a asp-page="/TestTabs/Tab1" class="nav-link">Mayonnaise opgave</a>
                 <!--Test page 2, is being edited by: [INSERT NAME]-->
-                <a asp-page="/TestTabs/Tab2" class="nav-link">Tab 2</a>
+                <a asp-page="/TestTabs/Tab2" class="nav-link">Guf opgave</a>
                 <!--Test page 3, is being edited by: [INSERT NAME]-->
-                <a asp-page="/TestTabs/Tab3" class="nav-link">Tab 3</a>
+                <a asp-page="/TestTabs/Tab3" class="nav-link">Flødekarameller opgave</a>
             </div>
             <!-- Right-aligned section "For login/signup links"-->
             <div class="navbar-right">
@@ -43,6 +43,7 @@
         @RenderBody()
     </main>
 
+    <script src="~/js/jsSessionsStorage.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)

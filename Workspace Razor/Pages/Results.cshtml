@@ -3,14 +3,22 @@
 @{
     ViewData["Title"] = "Results page";
 }
-<script src="js/jsSessionsStorage.js"></script>
-
-        <div class="resultBlock">
+    <div class="resultBlock">
             <p id="displaystorage"></p>
+        </div>
+        <div class="CheckAnswers">
+            <p id="displayanswer"> </p>
         </div>
 
 
 
 <script>
-window.onload = allStorage();
+// Call allStorage and checkAnswers when the window finishes loading so the DOM elements exist.
+window.addEventListener('load', () => {
+    allStorage();
+    // Run the answers check automatically
+    if (typeof checkAnswers === 'function') {
+        checkAnswers();
+    }
+});
 </script>
