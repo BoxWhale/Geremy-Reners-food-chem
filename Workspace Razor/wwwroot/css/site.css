@@ -112,10 +112,12 @@ main {
 /* #region Sidebar */
 
     .sidebar {
+        position: sticky;
+
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: sticky;
+        
         background-color: var(--secondary-bar-color);
         left: 0;
         padding: 12px;
@@ -175,6 +177,17 @@ main {
     justify-content: center;
     align-items: center;
     margin: 50px auto auto 50px;
+}
+
+.dragableList{
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    width: 200px;
+    min-height: 200px;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: white;
+    list-style-type: none;
 }
 
 .resultBlock{
