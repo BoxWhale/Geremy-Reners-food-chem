@@ -56,6 +56,7 @@ function allStorage() {
             "Opgave 1f svar": "nej, fordi olie er upolært",
             "Opgave 2a svar": ["correct"],
             "Opgave 2b svar": ["correct"],
+            "Opgave 2c svar": ["O) 3,44, C) 2,55, H) 2,2"],
             "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"] ,
             "Opgave 2e svar": ["nej eddike polært","molekyler samle sig og skille sig fra upolære fedtstof"],
             "Opgave 3a svar": ["interagere både polære og upolære molekyler"],
@@ -176,6 +177,7 @@ function allStorage() {
             "Opgave 1f svar",
             "Opgave 2a svar",
             "Opgave 2b svar",
+            "Opgave 2c svar",
             "Opgave 2d svar",
             "Opgave 2e svar",
             "Opgave 3a svar"
