@@ -14,6 +14,20 @@
     <p>3a. Hvad er definitionen på en emulgator?</p>
         <input onfocusout="saveanswer('Opgave 3a svar', 'AnswerBox7')" type="text" id="AnswerBox7" name="Answer7" value="">
     <p>3b. Find en figur af et phosphorlipid</p>
+        <div class="image-options">
+        <label style="display:inline-block;margin-right:8px;cursor:pointer;">
+            <input onfocusout="saveanswer('Opgave 3b svar', 'Answer3b')" type="radio" id="Answer3b1" name="Answer3b" value="incorrect" style="display:none;" />
+            <img src="~/Img/Opgave3/phospha2.png" alt="Triglycerid 1" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('Answer3b1', this)" />
+        </label>
+        <label style="display:inline-block;margin-right:8px;cursor:pointer;">
+            <input onfocusout="saveanswer('Opgave 3b svar', 'Answer3b2')" type="radio" id="Answer3b2" name="Answer3b" value="correct" style="display:none;" />
+            <img src="~/Img/Opgave3/phospha1.png" alt="Option 2" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('Answer3b2', this)" />
+        </label>
+        <label style="display:inline-block;cursor:pointer;">
+            <input onfocusout="saveanswer('Opgave 3b svar', 'Answer3b3')" type="radio" id="Answer3b3" name="Answer3b" value="incorrect" style="display:none;" />
+            <img src="~/Img/Opgave3/phospha3.png" alt="Option 3" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('Answer3b3', this)" />
+        </label>
+    </div>
     <p>3c. Hvor på din figur vil olien (triglyceridet fra opgave 2) ligge sig.</p>
     <input onfocusout="saveanswer('Opgave 3c svar', 'AnswerBox8')" type="radio" id="AnswerBox8" name="Answer8" value="2 haler, de er upolære" >Ved en af de 2 ”haler”, da de er upolære, og vil kunne blande sig med fedtstof</input>
             <br />

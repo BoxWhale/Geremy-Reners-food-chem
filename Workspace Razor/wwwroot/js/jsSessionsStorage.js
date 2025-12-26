@@ -60,7 +60,12 @@ function allStorage() {
             "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"] ,
             "Opgave 2e svar": ["nej eddike polært","molekyler samle sig og skille sig fra upolære fedtstof"],
             "Opgave 3a svar": ["interagere både polære og upolære molekyler"],
-            "Opgave 3c svar": ["2 haler, de er upolære","vil kunne blande sig med fedtstof"]
+            "Opgave 3b svar": "correct",
+            "Opgave 3c svar": ["2 haler, de er upolære","vil kunne blande sig med fedtstof"],
+            "Opgave 4a svar": "correct",
+            "Opgave 4b svar": "correct",
+            "Opgave 4c svar": "correct",
+            "Opgave 4d svar": "correct"
         };
 
         const container = document.querySelector('.CheckAnswers');
@@ -180,7 +185,13 @@ function allStorage() {
             "Opgave 2c svar",
             "Opgave 2d svar",
             "Opgave 2e svar",
-            "Opgave 3a svar"
+            "Opgave 3a svar",
+            "Opgave 3b svar",
+            "Opgave 3c svar",
+            "Opgave 4a svar",
+            "Opgave 4b svar",
+            "Opgave 4c svar",
+            "Opgave 4d svar"
         ];
         console.group('Validator diagnostics');
         console.log('Expected keys:', expected);
