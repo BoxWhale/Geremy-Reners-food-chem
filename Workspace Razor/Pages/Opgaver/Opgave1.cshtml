@@ -8,18 +8,60 @@
     <h2>Opgave 1 Eddike:</h2>
     <div>
         <p>Eddike består af vand, 5% eddikesyre samt smags- og farvestoffer.</p>
-        <p>1a. Tegn eller find en figur af eddikesyre</p>
+        <p>1a. Vælg den rigtige figur af eddikesyre</p>
+        <div class="image-options">
+            <label style="display:inline-block;margin-right:8px;cursor:pointer;">
+                <input onfocusout="saveanswer('Opgave 1a svar', 'AnswerBox1')" type="radio" id="AnswerBox1" name="Answer1a" value="correct" style="display:none;" />
+                <img src="~/Img/Opgave1/eddikesyre.png" alt="Eddikesyre 1" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('AnswerBox1', this)" />
+            </label>
+            <label style="display:inline-block;margin-right:8px;cursor:pointer;">
+                <input onfocusout="saveanswer('Opgave 1a svar', 'AnswerBox2')" type="radio" id="AnswerBox2" name="Answer1a" value="incorrect" style="display:none;" />
+                <img src="~/Img/Opgave1/eddikesyre2.png" alt="Option 2" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('AnswerBox2', this)" />
+            </label>
+            <label style="display:inline-block;cursor:pointer;">
+                <input onfocusout="saveanswer('Opgave 1a svar', 'AnswerBox3')" type="radio" id="AnswerBox3" name="Answer1a" value="incorrect" style="display:none;" />
+                <img src="~/Img/Opgave1/eddikesyre3.png" alt="Option 3" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('AnswerBox3', this)" />
+            </label>
+            <noscript>
+                <div>
+                    <input onfocusout="saveanswer('Opgave 1a svar', 'AnswerBox1_nojs')" type="radio" id="AnswerBox1_nojs" name="Answer1a_nojs" value="Eddike1" /> Eddikesyre 1
+                </div>
+                <div>
+                    <input onfocusout="saveanswer('Opgave 1a svar', 'AnswerBox2_nojs')" type="radio" id="AnswerBox2_nojs" name="Answer1a_nojs" value="incorrect" /> Option 2
+                </div>
+                <div>
+                    <input onfocusout="saveanswer('Opgave 1a svar', 'AnswerBox3_nojs')" type="radio" id="AnswerBox3_nojs" name="Answer1a_nojs" value="incorrect" /> Option 3
+                </div>
+            </noscript>
+        </div>
+
         <p>1b. Hvorfor kan man også kalde eddikesyre for ethansyre?</p>
             <input onfocusout="saveanswer('Opgave 1b svar', 'AnswerBox1')" type="radio" id="AnswerBox1" name="Answer1" value="ethan-gruppe" >Molekylet består af en ethan-gruppe (C-C), med en carboxyl-gruppe (COOH).
-Når en carboxyl-gruppe er bundet til et alkan navngives stoffen ”alkan+syre”, hvis i dette tilfælde er ”ethan + syre </input>
+Når en carboxyl-gruppe er bundet til et alkan navngives stoffen ”alkan+syre”, hvis i dette tilfælde er ”ethan + syre" </input>
             <br />
-            <input onfocusout="saveanswer('Opgave 1b svar', 'AnswerBox1')" type="radio" id="AnswerBox1" name="Answer1" value ="incorrect">blah blah blah </input>
+            <input onfocusout="saveanswer('Opgave 1b svar', 'AnswerBox1')" type="radio" id="AnswerBox1" name="Answer1" value ="incorrect">Når molekylet består af en ethan-gruppe (C-C), har det et lige antal af C og O molekyler
+ </input>
             <br />
-            <input onfocusout="saveanswer('Opgave 1b svar', 'AnswerBox1')" type="radio" id="AnswerBox1" name="Answer1" value ="incorrect" >blah blah blah </input>
+            <input onfocusout="saveanswer('Opgave 1b svar', 'AnswerBox1')" type="radio" id="AnswerBox1" name="Answer1" value ="incorrect" >Det kan man ikke, da det ikke er en carboxyl-gruppe</input>
             <br />
 
            <!-- <input onfocusout="saveanswer('Opgave 1b svar', 'AnswerBox1')" type="text" id="AnswerBox1" name="Answer1" value="">-->
         <p>1c. Marker syregruppen på din figur</p>
+        <div class="image-options">
+            <label style="display:inline-block;margin-right:8px;cursor:pointer;">
+                <input onfocusout="saveanswer('Opgave 1c svar', 'AnswerBox5')" type="radio" id="AnswerBox5" name="Answer1c" value="incorrect" style="display:none;" />
+                <img src="~/Img/Opgave1/Drawing (1).png" alt="Markeret syre 1" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('AnswerBox5', this)" />
+            </label>
+            <label style="display:inline-block;margin-right:8px;cursor:pointer;">
+                <input onfocusout="saveanswer('Opgave 1c svar', 'AnswerBox6')" type="radio" id="AnswerBox6" name="Answer1c" value="incorrect" style="display:none;" />
+                <img src="~/Img/Opgave1/Drawing.png" alt="Option 2" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('AnswerBox6', this)" />
+            </label>
+            <label style="display:inline-block;cursor:pointer;">
+                <input onfocusout="saveanswer('Opgave 1c svar', 'AnswerBox7')" type="radio" id="AnswerBox7" name="Answer1c" value="correct" style="display:none;" />
+                <img src="~/Img/Opgave1/Markeret.png" alt="Option 3" style="width:150px;height:150px;border:2px solid transparent;object-fit:contain;" onclick="selectImage('AnswerBox7', this)" />
+            </label>
+        </div>
+
         <p>1d. Find og skriv elektronegativiteten for atomerne på figuren</p>
             <div>
                 <p>Antal polære grupper:</p><input onfocusout="saveanswer('Opgave 1d polære svar', 'AnswerBox2')" type="text" id="AnswerBox2" name="Answer2" value="">
