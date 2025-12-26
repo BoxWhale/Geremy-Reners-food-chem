@@ -48,14 +48,14 @@ function allStorage() {
        
         //validators to say what the answers should be
         const validators = {
-            "Opgave 1a svar": ["correct"],
+            "Opgave 1a svar": "correct",
             "Opgave 1b svar": ["ethan-gruppe","carboxyl-gruppe","C-C","COOH","alkan"],
-            "Opgave 1c svar": ["correct"],
+            "Opgave 1c svar": "correct",
             "Opgave 1d polære svar": ["1"],
             "Opgave 1d upolære svar": ["1"],
             "Opgave 1f svar": "nej, fordi olie er upolært",
-            "Opgave 2a svar": ["correct"],
-            "Opgave 2b svar": ["correct"],
+            "Opgave 2a svar": "correct",
+            "Opgave 2b svar": "correct",
             "Opgave 2c svar": ["O) 3,44, C) 2,55, H) 2,2"],
             "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"] ,
             "Opgave 2e svar": ["nej eddike polært","molekyler samle sig og skille sig fra upolære fedtstof"],

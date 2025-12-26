@@ -3,9 +3,6 @@
 @{
     ViewData["Title"] = "Results page";
 }
-    <div class="resultBlock">
-            <p id="displaystorage"></p>
-        </div>
         <div class="CheckAnswers">
             <p id="displayanswer"> </p>
         </div>
@@ -15,8 +12,7 @@
 <script>
 // Call allStorage and checkAnswers when the window finishes loading so the DOM elements exist.
 window.addEventListener('load', () => {
-    allStorage();
-    // Run the answers check automatically
+    // Only run the answers check on this page; do not show raw storage keys
     if (typeof checkAnswers === 'function') {
         checkAnswers();
     }
