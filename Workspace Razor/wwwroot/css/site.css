@@ -44,7 +44,9 @@ main {
         top: 0;
         width: 100%;
         align-items: center;
-        margin: 0;
+        margin: 0 0 0 0;
+        border-bottom: 2px solid var(--border-color);
+
     }
 
     /*Navbar styles*/
@@ -112,7 +114,7 @@ main {
 /* #region Sidebar */
 
     .sidebar {
-        position: sticky;
+        position:sticky;
 
         display: flex;
         flex-direction: column;

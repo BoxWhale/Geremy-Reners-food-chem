@@ -1,44 +1,46 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overscroll-behavior: none;">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Workspace_Razor</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
+
 <body>
-    <header>
-    <div class="main-wrapper">
-        <!-- Navbar content -->
-        <div class="navbar main-navbar">
-            <!-- Left-aligned section "For logo"-->
-            <div class="navbar-left">
-                <a asp-page="/Index" class="nav-link">
-                    <img src="/Img/logo.png" alt="Home" style="width: 128px"/>
-                </a>
-            </div>
-            <!-- Center-aligned section "For navigation links"-->
-            <div class="navbar-center">
-                <!--Index page, is being edited by: [INSERT NAME]-->
-                <a asp-page="/Index" class="nav-link">Opgaver</a>
-                <!--Results page, is being edited by: [INSERT NAME]-->
-                <a asp-page="/Results" class="nav-link">Resultater</a>
-                <!--Test page 1, is being edited by: [INSERT NAME]-->
-                <a asp-page="/TestTabs/Tab1" class="nav-link">Mayonnaise opgave</a>
-                <!--Test page 2, is being edited by: [INSERT NAME]-->
-                <a asp-page="/TestTabs/Tab2" class="nav-link">Guf opgave</a>
-                <!--Test page 3, is being edited by: [INSERT NAME]-->
-                <a asp-page="/TestTabs/Tab3" class="nav-link">Flødekarameller opgave</a>
-            </div>
-            <!-- Right-aligned section "For login/signup links"-->
-            <div class="navbar-right">
-            <!-- Future login/signup links can be added here 
+    <header style="z-index: 100;">
+        <div class="main-wrapper">
+            <!-- Navbar content -->
+            <div class="navbar main-navbar">
+                <!-- Left-aligned section "For logo"-->
+                <div class="navbar-left">
+                    <a asp-page="/Index" class="nav-link">
+                        <img src="/Img/logo.png" alt="Home" style="width: 128px" />
+                    </a>
+                </div>
+                <!-- Center-aligned section "For navigation links"-->
+                <div class="navbar-center">
+                    <!--Index page, is being edited by: [INSERT NAME]-->
+                    <a asp-page="/Index" class="nav-link">Opgaver</a>
+                    <!--Results page, is being edited by: [INSERT NAME]-->
+                    <a asp-page="/Results" class="nav-link">Resultater</a>
+                    <!--Test page 1, is being edited by: [INSERT NAME]-->
+                    <a asp-page="/TestTabs/Tab1" class="nav-link">Mayonnaise opgave</a>
+                    <!--Test page 2, is being edited by: [INSERT NAME]-->
+                    <a asp-page="/TestTabs/Tab2" class="nav-link">Guf opgave</a>
+                    <!--Test page 3, is being edited by: [INSERT NAME]-->
+                    <a asp-page="/TestTabs/Tab3" class="nav-link">Flødekarameller opgave</a>
+                </div>
+                <!-- Right-aligned section "For login/signup links"-->
+                <div class="navbar-right">
+                    <!-- Future login/signup links can be added here 
                     Spacer for now-->
+                </div>
             </div>
         </div>
-    </div>
     </header>
-    
+
 
     <main role="main">
         @RenderBody()
@@ -49,4 +51,5 @@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
