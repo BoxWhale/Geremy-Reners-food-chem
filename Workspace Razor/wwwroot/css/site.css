@@ -26,6 +26,12 @@ main {
     display: flex;
     height: 100%;
     background-color: var(--background-color);
+    flex: 1;
+}
+.main-display{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
 
 .main-wrapper {
@@ -114,14 +120,13 @@ main {
 /* #region Sidebar */
 
     .sidebar {
-        position:sticky;
 
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex: 0 0 7.5%;
         
         background-color: var(--secondary-bar-color);
-        left: 0;
         padding: 12px;
         border-right: 2px solid var(--border-color);
     }
@@ -178,7 +183,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px auto auto 50px;
+}
+.addjuster{
+    margin: 50px 0 0 50px;
 }
 
 .dragableList{
