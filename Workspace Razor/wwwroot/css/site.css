@@ -20,18 +20,20 @@ body {
     background-color: var(--background-color);
     margin: 0;
     height: 100vh;
+    overflow: hidden; /* Prevent body from scrolling */
 }
 
 main {
     display: flex;
-    height: 100%;
     background-color: var(--background-color);
     flex: 1;
+    overflow-y: auto; /* Allow main content to scroll */
 }
 .main-display{
     display: flex;
     flex-direction: row;
     flex: 1;
+    overflow: hidden;
 }
 
 .main-wrapper {
@@ -124,7 +126,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex: 0 0 7.5%;
+        flex: 0 0 90px;
         
         background-color: var(--secondary-bar-color);
         padding: 12px;
@@ -182,10 +184,9 @@ main {
 .opgaveBox{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .addjuster{
-    margin: 50px 0 0 50px;
+    margin: 50px 0 50px 50px;
 }
 
 .dragableList{
