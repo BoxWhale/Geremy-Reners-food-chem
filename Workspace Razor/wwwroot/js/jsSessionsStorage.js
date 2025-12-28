@@ -67,10 +67,10 @@ function allStorage() {
             "Opgave 4b svar": "correct",
             "Opgave 4c svar": "correct",
             "Opgave 4d svar": "correct",
-                  "Ingredient1": "Egg",
-      "Ingredient2": "Salt",
-      "Ingredient3": "Olie",
-      "Ingredient4": "Eddike"
+            "Ingredient1": ["Æg", "Salt"],
+            "Ingredient2": ["Salt", "Æg"],
+            "Ingredient3": ["Olie", "Eddike"],
+            "Ingredient4": ["Eddike", "Olie"]
         };
 
         const container = document.querySelector('.CheckAnswers');
@@ -276,10 +276,10 @@ function allStorage() {
       "Opgave 4c svar": "correct",
       "Opgave 4d svar": "correct",
       // Add your Ingredient1/2 keys here if you want to validate them
-      "Ingredient1": "Egg",
-      "Ingredient2": "Salt",
-      "Ingredient3": "Olie",
-      "Ingredient4": "Eddike"
+      "Ingredient1": ["Æg", "Salt"],
+      "Ingredient2": ["Salt", "Æg"],
+      "Ingredient3": ["Olie", "Eddike"],
+      "Ingredient4": ["Eddike", "Olie"]
     };
 
     const validator = validators[key];
