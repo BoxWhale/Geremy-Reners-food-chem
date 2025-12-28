@@ -6,17 +6,17 @@
 
 <div class="task-window">
 
-    <h1>Drag and drop</h1>
+    <h1>Eksperiment</h1>
     <p>Pisk æggeblommen og salt til en sej masse. tilsæt eddiken og nogle dråber af olien under kraftig piskning evt. med en håndmikser. Når massen bliver tyk tilsættes resten af olien i en tynd stråle under piskning. </p>
-    <h2>Pickup</h2>
+    <h2>Ingredienser</h2>
     <ul class="dragableList" id="pickupList" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <li class="draggable-item" draggable="true" data-value="Eddike" ondragstart="pickup(event)">Eddike</li>
-        <li class="draggable-item" draggable="true" data-value="Olie" ondragstart="pickup(event)">Olie</li>
-        <li class="draggable-item" draggable="true" data-value="Æg" ondragstart="pickup(event)">Æg</li>
-        <li class="draggable-item" draggable="true" data-value="Salt" ondragstart="pickup(event)">Salt</li>
+        <li class="draggable-item" draggable="true" data-value="Eddike" ondragstart="pickup(event)">🍶Eddike</li>
+        <li class="draggable-item" draggable="true" data-value="Olie" ondragstart="pickup(event)">🫒Olie</li>
+        <li class="draggable-item" draggable="true" data-value="Æg" ondragstart="pickup(event)">🥚Æg</li>
+        <li class="draggable-item" draggable="true" data-value="Salt" ondragstart="pickup(event)">🧂Salt</li>
     </ul>
 
-
+<p>Mix 2 ingredienser sammen til en masse her</p>
 <ul id="dropList" class="dragableList">
   <li class="drop-slot"
       data-key="Ingredient1"
@@ -25,6 +25,7 @@
     Første ingrediens her
     <input type="hidden" id="Answer_Ingredient1" value="" />
   </li>
+
 
   <li class="drop-slot"
       data-key="Ingredient2"
@@ -35,6 +36,7 @@
   </li>
 </ul>
 
+<p>Hvad tilføjes under kraftig piskning?</p>
 <ul id="dropList" class="dragableList">
   <li class="drop-slot"
       data-key="Ingredient3"
@@ -43,7 +45,11 @@
     Tredje ingrediens her
     <input type="hidden" id="Answer_Ingredient3" value="" />
   </li>
+</ul>
 
+
+<p>Hvad tilføjes efter?</p>
+<ul id="dropList" class="dragableList">
   <li class="drop-slot"
       data-key="Ingredient4"
       ondragover="allowDrop(event)"
@@ -52,6 +58,5 @@
     <input type="hidden" id="Answer_Ingredient4" value="" />
   </li>
 </ul>
-
 
 </div>
