@@ -199,9 +199,9 @@ function allStorage() {
             "Opgave 4c svar",
             "Opgave 4d svar",
             "Ingredient1",
-      "Ingredient2",
-      "Ingredient3",
-      "Ingredient4"
+            "Ingredient2",
+            "Ingredient3",
+            "Ingredient4"
         ];
         console.group('Validator diagnostics');
         console.log('Expected keys:', expected);
@@ -252,52 +252,3 @@ function allStorage() {
     slot.classList.remove('correct', 'incorrect');
     slot.classList.add(isCorrect ? 'correct' : 'incorrect');
   }
-
-  // Minimal single-key evaluator mirroring your checkAnswers logic
-  function evaluate(key, stored) {
-    const validators = {
-      "Opgave 1a svar": "correct",
-      "Opgave 1b svar": ["ethan-gruppe","carboxyl-gruppe","C-C","COOH","alkan"],
-      "Opgave 1c svar": "correct",
-      "Opgave 1d polære svar": ["1"],
-      "Opgave 1d upolære svar": ["1"],
-      "Opgave 1f svar": "nej, fordi olie er upolært",
-      "Opgave 2a svar": "correct",
-      "Opgave 2b svar": "correct",
-      "Opgave 2c svar": ["O) 3,44, C) 2,55, H) 2,2"],
-      "Opgave 2d svar": ["De tre fedtsyrer er upolære","molekylet er upolært men gruppen er polær"] ,
-      "Opgave 2e svar": ["nej eddike polært","molekyler samle sig og skille sig fra upolære fedtstof"],
-      "Opgave 3a svar": ["interagere både polære og upolære molekyler"],
-      "Opgave 3b svar": "correct",
-      "Opgave 3c svar": ["2 haler, de er upolære","vil kunne blande sig med fedtstof"],
-      "Opgave 3d svar": ["Da eddike er polært vil det lægge sig ved den negativt ladet fosfat-gruppe."],
-      "Opgave 4a svar": "correct",
-      "Opgave 4b svar": "correct",
-      "Opgave 4c svar": "correct",
-      "Opgave 4d svar": "correct",
-      // Add your Ingredient1/2 keys here if you want to validate them
-      "Ingredient1": ["Æg", "Salt"],
-      "Ingredient2": ["Salt", "Æg"],
-      "Ingredient3": ["Olie", "Eddike"],
-      "Ingredient4": ["Eddike", "Olie"]
-    };
-
-    const validator = validators[key];
-    if (validator == null) return true; // no rule => treat as correct
-
-    const s = String(stored).trim();
-
-    if (validator instanceof RegExp) {
-      return validator.test(s);
-    } else if (Array.isArray(validator)) {
-      const lower = s.toLowerCase();
-      return validator.some(v =>
-        v instanceof RegExp ? v.test(s) : lower.includes(String(v).toLowerCase())
-      );
-    } else if (typeof validator === 'function') {
-      try { return !!validator(s); } catch { return false; }
-    } else {
-      return s.toLowerCase() === String(validator).toLowerCase();
-    }
-  }
-
