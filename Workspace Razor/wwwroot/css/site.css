@@ -198,8 +198,32 @@ main {
     padding: 10px;
     background-color: white;
     list-style-type: none;
+    display: inline-block;
 }
 
 .resultBlock{
     display: grid;
 }
+
+
+.draggable-item {
+  display: inline-flex;          /* keeps icon and text aligned */
+  align-items: center;
+  gap: 0rem;                   /* space between icon and text */
+  padding: 0.25rem 0.5rem;
+  cursor: grab;
+}
+
+.draggable-item:active {
+  cursor: grabbing;
+}
+
+.draggable-item .icon {
+  width: 80px;                   /* adjust size as needed */
+  height: 80px;
+  object-fit: contain;           /* prevents distortion */
+  pointer-events: none;          /* avoids image capturing hover events while dragging */
+  user-select: none;             /* avoid accidental selection */
+}
+
+
