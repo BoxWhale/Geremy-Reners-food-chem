@@ -70,7 +70,19 @@ function allStorage() {
             "Ingredient1": ["Æg", "Salt"],
             "Ingredient2": ["Salt", "Æg"],
             "Ingredient3": "Olie",
-            "Ingredient4": "Eddike"
+            "Ingredient4": "Eddike",
+            "OlieStandard": "",
+            "KvarkStandard": "",
+            "KonsistensStandard": "",
+            "BemærkningerStandard": "",
+            "OlieForsøg1": "",
+            "KvarkForsøg1": "",
+            "KonsistensForsøg1": "",
+            "BemærkningerForsøg1": "",
+            "OlieForsøg2": "",
+            "KvarkForsøg2": "",
+            "KonsistensForsøg2": "",
+            "BemærkningerForsøg2": ""
         };
 
         const container = document.querySelector('.CheckAnswers');
@@ -201,7 +213,19 @@ function allStorage() {
             "Ingredient1",
             "Ingredient2",
             "Ingredient3",
-            "Ingredient4"
+            "Ingredient4",
+            "OlieStandard",
+            "KvarkStandard",
+            "KonsistensStandard",
+            "BemærkningerStandard",
+            "OlieForsøg1",
+            "KvarkForsøg1",
+            "KonsistensForsøg1",
+            "BemærkningerForsøg1",
+            "OlieForsøg2",
+            "KvarkForsøg2",
+            "KonsistensForsøg2",
+            "BemærkningerForsøg2"
         ];
         console.group('Validator diagnostics');
         console.log('Expected keys:', expected);

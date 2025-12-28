@@ -1,0 +1,51 @@
+@page
+@model Workspace_Razor.Pages.Opgaver.Opgave6
+@{
+        Layout = null;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<body>
+  <table style="background-color: white; border-radius: 10px;">
+    <tbody>
+        <td></td>
+        <td><p>Tilsat ml. Olie</p></td>
+        <td><p>Tilsæt Kvark</p></td>
+        <td><p>Konsistens</p></td>
+        <td><p>Andre bemærkninger</p></td>
+      </tr>
+      <tr>
+        <td><p>Standard</p></td>
+        <td><input type="text" id="OlieStandardBox" onfocusout="saveanswer('OlieStandard', 'OlieStandardBox')"></td>
+        <td><input type="text" id="KvarkStandard" onfocusout="saveanswer('KvarkStandard', 'KvarkStandard')"></td>
+        <td><input type="text" id="KonsistensStandard" onfocusout="saveanswer('KonsistensStandard', 'KonsistensStandard')"></td>
+        <td><input type="text" id="BemærkningerStandard" onfocusout="saveanswer('BemærkningerStandard', 'BemærkningerStandard')"></td>
+      </tr>
+      <tr>
+        <td><p>1. Forsøg</p></td>
+        <td><input type="text" id="OlieForsøg1" onfocusout="saveanswer('OlieForsøg1', 'OlieForsøg1')"></td>
+        <td><input type="text" id="KvarkForsøg1" onfocusout="saveanswer('KvarkForsøg1', 'KvarkForsøg1')"></td>
+        <td><input type="text" id="KonsistensForsøg1" onfocusout="saveanswer('KonsistensForsøg1', 'KonsistensForsøg1')"></td>
+        <td><input type="text" id="BemærkningerForsøg1" onfocusout="saveanswer('BemærkningerForsøg1', 'BemærkningerForsøg1')"></td>
+      </tr>
+      <tr>
+        <td><p>2. Forsøg</p></td>
+        <td><input type="text" id="OlieForsøg2" onfocusout="saveanswer('OlieForsøg2', 'OlieForsøg2')"></td>
+        <td><input type="text" id="KvarkForsøg2" onfocusout="saveanswer('KvarkForsøg2', 'KvarkForsøg2')"></td>
+        <td><input type="text" id="KonsistensForsøg2" onfocusout="saveanswer('KonsistensForsøg2', 'KonsistensForsøg2')"></td>
+        <td><input type="text" id="BemærkningerForsøg2" onfocusout="saveanswer('BemærkningerForsøg2', 'BemærkningerForsøg2')"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
