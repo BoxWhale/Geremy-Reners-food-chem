@@ -67,10 +67,10 @@ function allStorage() {
             "Opgave 4b svar": "correct",
             "Opgave 4c svar": "correct",
             "Opgave 4d svar": "correct",
-            "Ingredient1": ["🥚Æg", "🧂Salt"],
-            "Ingredient2": ["🧂Salt", "🥚Æg"],
-            "Ingredient3": "🫒Olie",
-            "Ingredient4": "🍶Eddike"
+            "Ingredient1": ["Æg", "Salt"],
+            "Ingredient2": ["Salt", "Æg"],
+            "Ingredient3": "Olie",
+            "Ingredient4": "Eddike"
         };
 
         const container = document.querySelector('.CheckAnswers');
