@@ -10,14 +10,48 @@
 
     <h2>Pickup</h2>
     <ul class="dragableList" id="pickupList" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <li class="draggable-item" draggable="true" ondragstart="pickup(event)">Item 1</li>
-        <li class="draggable-item" draggable="true" ondragstart="pickup(event)">Item 2</li>
-        <li class="draggable-item" draggable="true" ondragstart="pickup(event)">Item 3</li>
+        <li class="draggable-item" draggable="true" data-value="Eddike" ondragstart="pickup(event)">Eddike</li>
+        <li class="draggable-item" draggable="true" data-value="Olie" ondragstart="pickup(event)">Olie</li>
+        <li class="draggable-item" draggable="true" data-value="Egg" ondragstart="pickup(event)">Æg</li>
+        <li class="draggable-item" draggable="true" data-value="Salt" ondragstart="pickup(event)">Salt</li>
     </ul>
 
-    <h2>Drop</h2>
-    <ul class="dragableList" id="dropList" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <li class="draggable-item" draggable="true" ondragstart="pickup(event)">Drop items here</li>
-    </ul>
+
+<ul id="dropList" class="dragableList">
+  <li class="drop-slot"
+      data-key="Ingredient1"
+      ondragover="allowDrop(event)"
+      ondrop="handleDrop(event)">
+    Første ingrediens her
+    <input type="hidden" id="Answer_Ingredient1" value="" />
+  </li>
+
+  <li class="drop-slot"
+      data-key="Ingredient2"
+      ondragover="allowDrop(event)"
+      ondrop="handleDrop(event)">
+    Anden ingrediens her
+    <input type="hidden" id="Answer_Ingredient2" value="" />
+  </li>
+</ul>
+
+<ul id="dropList" class="dragableList">
+  <li class="drop-slot"
+      data-key="Ingredient3"
+      ondragover="allowDrop(event)"
+      ondrop="handleDrop(event)">
+    Tredje ingrediens her
+    <input type="hidden" id="Answer_Ingredient3" value="" />
+  </li>
+
+  <li class="drop-slot"
+      data-key="Ingredient4"
+      ondragover="allowDrop(event)"
+      ondrop="handleDrop(event)">
+    Fjerde ingrediens her
+    <input type="hidden" id="Answer_Ingredient4" value="" />
+  </li>
+</ul>
+
 
 </div>
