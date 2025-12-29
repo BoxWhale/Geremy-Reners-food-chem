@@ -49,7 +49,7 @@ function allStorage() {
         //validators to say what the answers should be
         const validators = {
             "Opgave 1a svar": "correct",
-            "Opgave 1b svar": ["ethan-gruppe","carboxyl-gruppe","C-C","COOH","alkan"],
+            "Opgave 1b svar": "ethan-gruppe",
             "Opgave 1c svar": "correct",
             "Opgave 1d polære svar": ["1"],
             "Opgave 1d upolære svar": ["1"],
