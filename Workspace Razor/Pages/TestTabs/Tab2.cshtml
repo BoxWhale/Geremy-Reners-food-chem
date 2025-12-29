@@ -1,25 +1,138 @@
+
 @page
 @model Workspace_Razor.Pages.TestTabs.Tab2Model
 @{
-    ViewData["Title"] = "Tab 2";
+    ViewData["Title"] = "";
 }
 
-<div class="opgBody">
-    <div class="sidebar">
-        <h3>Sidebar</h3>
+<h1 class="page-title">@ViewData["Title"]</h1>
 
-        <ul>
-            <li><button class="btn" onclick="show('one')">Opgave 1</button></li>
-            <li><button class="btn" onclick="show('two')">Opgave 2</button></li>
-            <li><button class="btn" onclick="show('three')">Opgave 3</button></li>
-        </ul>
-    </div>
-
-    <div class="opgaveBox">
-        Click a button to load content.
-    </div>
+<div class="table-container">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Tilsat ml. Olie</th>
+                <th>Tilsæt Kvark</th>
+                <th>Konsistens</th>
+                <th>Andre bemærkninger</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standard</td>
+                <td><span id="OlieStandard_view">—</span></td>
+                <td><span id="KvarkStandard_view">—</span></td>
+                <td><span id="KonsistensStandard_view">—</span></td>
+                <td><span id="BemærkningerStandard_view">—</span></td>
+            </tr>
+            <tr>
+                <td>1. Forsøg</td>
+                <td><span id="OlieForsøg1_view">—</span></td>
+                <td><span id="KvarkForsøg1_view">—</span></td>
+                <td><span id="KonsistensForsøg1_view">—</span></td>
+                <td><span id="BemærkningerForsøg1_view">—</span></td>
+            </tr>
+            <tr>
+                <td>2. Forsøg</td>
+                <td><span id="OlieForsøg2_view">—</span></td>
+                <td><span id="KvarkForsøg2_view">—</span></td>
+                <td><span id="KonsistensForsøg2_view">—</span></td>
+                <td><span id="BemærkningerForsøg2_view">—</span></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+       
+        margin: 0;
+        padding: 0;
+    }
 
+    .page-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        padding: 10px;
+    }
+
+    .styled-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .styled-table th, .styled-table td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .styled-table thead {
+        background-color: #3a7695;
+        color: #fff;
+    }
+
+    .styled-table tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .styled-table td:first-child {
+        font-weight: bold;
+        color: #444;
+    }
+
+  
+    }
+</style>
+
+<script>
+    const mapping = [
+        { key: "OlieStandard", el: "OlieStandard_view" },
+        { key: "KvarkStandard", el: "KvarkStandard_view" },
+        { key: "KonsistensStandard", el: "KonsistensStandard_view" },
+        { key: "BemærkningerStandard", el: "BemærkningerStandard_view" },
+
+        { key: "OlieForsøg1", el: "OlieForsøg1_view" },
+        { key: "KvarkForsøg1", el: "KvarkForsøg1_view" },
+        { key: "KonsistensForsøg1", el: "KonsistensForsøg1_view" },
+        { key: "BemærkningerForsøg1", el: "BemærkningerForsøg1_view" },
+
+        { key: "OlieForsøg2", el: "OlieForsøg2_view" },
+        { key: "KvarkForsøg2", el: "KvarkForsøg2_view" },
+        { key: "KonsistensForsøg2", el: "KonsistensForsøg2_view" },
+        { key: "BemærkningerForsøg2", el: "BemærkningerForsøg2_view" },
+    ];
+
+    function safeGet(key) {
+        try {
+            const v = sessionStorage.getItem(key);
+            return (v && v.trim().length > 0) ? v : "—";
+        } catch (e) {
+            return "—";
+        }
+    }
+
+    function renderSavedAnswers() {
+        for (const m of mapping) {
+            const el = document.getElementById(m.el);
+            if (el) el.textContent = safeGet(m.key);
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", renderSavedAnswers);
+    window.addEventListener("storage", (ev) => {
+        if (ev.storageArea === sessionStorage) renderSavedAnswers();
+    });
+</script>
 
 <script src="~/js/opgaveskift.js"></script>

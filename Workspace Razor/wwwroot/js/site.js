@@ -25,3 +25,45 @@
             }
         }
     }
+
+
+    
+const STORAGE_KEY = 'kvarkFormV1';
+
+  function saveAll() {
+    const inputs = document.querySelectorAll('.kvark-input');
+    const data = {};
+    inputs.forEach(inp => data[inp.id] = inp.value ?? '');
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  }
+
+  function loadAll() {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return;
+    try {
+      const data = JSON.parse(raw);
+      Object.keys(data).forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.value = data[id];
+      });
+    } catch (e) {
+      console.warn('Kunne ikke parse gemte data:', e);
+    }
+  }
+
+  function clearAll() {
+    localStorage.removeItem(STORAGE_KEY);
+    document.querySelectorAll('.kvark-input').forEach(inp => inp.value = '');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    loadAll();
+
+    document.querySelectorAll('.kvark-input').forEach(inp => {
+      inp.addEventListener('input', saveAll);
+      inp.addEventListener('change', saveAll);
+      inp.addEventListener('focusout', saveAll);
+    });
+
+    document.getElementById('clearDataBtn').addEventListener('click', clearAll);
+  });
